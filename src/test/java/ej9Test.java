@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ej9Test {
+class ej9Test {         //El fallo en el progrma es que falta poner break despues de los case, por eso el sueldo nunca cambia, ya que se mete en el default y el incremento siempre es 0 (Lo he solucionado)
 
     @Test
     void testBreakpoint(){      //Este test solo se utiliza para llamar al metodo con unos valores especificos y comprobar el metodo con un breakpoint
